@@ -1,0 +1,14 @@
+CREATE DATABASE emp_login;
+-- employee table
+CREATE TABLE employee (
+    emp_id INT PRIMARY KEY,
+    emp_fname VARCHAR(100),
+    emp_lname VARCHAR(100),
+    emp_username VARCHAR(100),
+    emp_password VARCHAR(100)
+);
+
+-- data of employee table
+INSERT INTO employee (emp_id, emp_fname, emp_lname, emp_username, emp_password)
+VALUES ('101', 'Svet Jazmine', 'Dio', 'svetdio@asco.com', 'svetdio123')
+;
